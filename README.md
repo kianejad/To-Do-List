@@ -14,7 +14,7 @@
     </ul>
 </div>
 <h2></h2>
-<p align="center"><a href="https://github.com/kianejad/To-Do-List/">----- Click To View Demo -----</a></p>
+<p align="center"><a href="https://github.com/kianejad/To-Do-List/index.html">----- Click To View Demo -----</a></p>
 <h2></h2>
 <p>Screenshot : </p>
 <img src="https://github.com/kianejad/To-Do-List/blob/master/screen-shot-todoList.png">
