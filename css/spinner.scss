@@ -1,0 +1,52 @@
+.loader:after {
+    content: "";
+    display: inline-block;
+    font-size: 6.2px;
+    //margin-top: 40px;
+    border: 1.2em solid #004080;
+    border-right-color: rgba(0, 64, 128, 0) !important;
+    transform: translateZ(0);
+    animation: spiner 1s infinite cubic-bezier(0.53, 0.21, 0.57, 0.85), colors 3s infinite cubic-bezier(0.45, -0.03, 1, 0.77);
+    border-radius: 50%;
+    width: 10em;
+    height: 10em;
+    position: absolute;
+    top: 50%;
+    right: 50%;
+    right: calc(50% - 5em);
+    margin-top: -6em;
+}
+
+
+
+@keyframes colors {
+    0% {
+        border-color: #3091e6;
+        border-bottom-color: transparent;
+    }
+
+    33% {
+        border-color: #0a5da9;
+        border-bottom-color: transparent;
+    }
+
+    66% {
+        border-color: #00bbd5;
+        border-bottom-color: transparent;
+    }
+
+    100% {
+        border-color: #3091e6;
+        border-bottom-color: transparent;
+    }
+}
+
+@keyframes spiner {
+    0% {
+        transform: rotate(0deg);
+    }
+
+    100% {
+        transform: rotate(720deg);
+    }
+}
